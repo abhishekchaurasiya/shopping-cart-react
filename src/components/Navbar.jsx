@@ -31,8 +31,6 @@ const Navbar = () => {
                   {cart.length}
                 </span>
               }
-
-
             </div>
           </NavLink>
         </div>

@@ -40,7 +40,7 @@ const Product = ({ item }) => {
         {
           cart.some((cartItem) => cartItem.id === item.id) ?
             (
-              <button
+                <button
                 className=' text-gray-700 border-2 border-gray-700 rounded-full font-semibold p-1 px-2 uppercase 
                 text-[10px] hover:bg-gray-700 hover:text-white transition duration-500 ease-in'
                 onClick={removeToCart}> Remove Item
